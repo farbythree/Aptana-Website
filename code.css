@@ -1,0 +1,84 @@
+body{
+	margin:0;
+	padding:0;
+	line-height: 1.5em;
+	background-image:url(4.gif);
+	background-attachment:fixed;
+	background-position:center;
+	background-size:280px;
+}
+/*EVERYTHING BOX*/
+.maincontainer{
+	width: 840px; /*Width of main container*/
+	margin: 0 auto; /*Center container on page*/
+}
+/*IMAGE*/
+.img {
+	height:100px;
+	background-image:url("assets/vapor.jpg")
+}
+/*TOP BOX*/
+.topsection{
+	background-color:#9D80A6;
+	height: 90px; /*Height of top section*/	 
+	font-size:80px;
+	padding:20px;
+	opacity:0.9;
+	text-align:center;
+}
+/*MAIN BOX*/
+.contentbox{
+	background-color:#efffff;
+	width: 100%;	
+	min-height: 20em;
+	float: left;
+}
+.contenttext{
+	margin-left: 200px;
+	margin-right: 200px; /*Set left margin to LeftColumnWidth*/
+}
+/*LEFT BOX*/
+.leftcolumn{
+	float: left;
+	width: 200px; /*Width of left column*/
+	margin-left: -840px; /*Set left margin to -(MainContainerWidth)*/
+	background: #F2E4E4;
+	min-height: 20em;
+}
+.rightcolumn{
+	float: right;
+	width: 200px; /*Width of left column*/
+	margin-left: -200px; /*Set left margin to -(MainContainerWidth)*/
+	background: #F2E4E4;
+	min-height: 20em;
+}
+/*TEXT IN BOX*/
+.innertext{
+	margin: 10px; /*Margins for inner DIV inside each column (to provide padding)*/
+	margin-top: 0;
+}
+/*FOOTER*/
+.footer{
+	clear: left;
+	width: 100%;
+	background: #9D80A6;
+	color: #000000;
+	text-align: center;
+}
+/*FONTS*/
+@font-face{
+	font-family:Pinto;
+	src:url("assets/Pinto.otf");
+}
+
+.topfont{
+	font-family:Pinto;
+}
+@font-face{
+	font-family:Supra;
+	src:url("assets/supra.otf");
+}
+
+.font{
+	font-family:Supra;
+}
